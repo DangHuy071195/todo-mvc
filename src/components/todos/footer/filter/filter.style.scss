@@ -1,0 +1,32 @@
+.filters {
+  color: #777;
+  text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  &-item {
+    color: inherit;
+    margin: 3px;
+    padding: 3px 7px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    &.active > a {
+      border-color: rgba(175, 47, 47, 0.2);
+    }
+    & > a {
+      color: inherit;
+      margin: 3px;
+      padding: 3px 7px;
+      text-decoration: none;
+      border: 1px solid transparent;
+      border-radius: 3px;
+      white-space: nowrap;
+
+      &:hover {
+        cursor: pointer !important;
+      }
+    }
+  }
+}

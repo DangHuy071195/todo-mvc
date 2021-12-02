@@ -1,0 +1,18 @@
+.todo {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  .todo-body {
+    & > .todo-list {
+      background: #fff;
+      position: relative;
+      padding: 0 2rem;
+
+      & #toggle-all {
+        text-align: center;
+        border: none;
+        opacity: 0;
+        position: absolute;
+        background: none;
+      }
+    }
+  }
+}
